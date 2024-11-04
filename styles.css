@@ -1,0 +1,201 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+}
+
+/* Barre de navigation */
+header {
+    background-color: #bf9fa9d7;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #252121;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f27fab;
+}
+
+/* Section About */
+#about {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about .section-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about .section-text {
+    font-size: 1.1em;
+    color: #666;
+}
+
+#about a {
+    color: #f27fab;
+    text-decoration: none;
+}
+
+#about a:hover {
+    color: #f27fab;
+}
+
+/* Conteneur des projets */
+#work .projects {
+    white-space: nowrap; 
+    overflow-x: auto; 
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style pour chaque projet */
+#work .project-item {
+    display: inline-block; 
+    width: 320px; 
+    vertical-align: top; 
+    margin-right: 20px; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+#work .project-item:hover {
+    transform: scale(1.05);
+}
+
+#work img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Section Resume */
+
+#resume {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom right, #fccfde4c, #fccfde48); 
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    margin: 20px;
+}
+
+#resume h2 {
+    color: #333;
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+    border-bottom: 3px solid #fccfdeec; 
+    display: inline-block; 
+    padding-bottom: 10px; 
+}
+
+#resume p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6; 
+}
+
+#resume video {
+    margin-top: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* Section Contact */
+#contact {
+    max-width: 600px;
+    margin: 20px auto 0; 
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+#contact input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #f27fab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #fccfdeec; 
+}
+
+#contact textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #bf9fa9ae;
+    color: #130e0e;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px; 
+}
